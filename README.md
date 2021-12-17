@@ -1,5 +1,5 @@
 # ForwardEmails
-Forward e-mails (the first e-mails of a threads) to recipient(s) that satisfies the query added.
+Forward e-mails (the first e-mails of threads) that satisfies the query added, to recipient(s).
 
 ## Shared link
 https://script.google.com/d/1gTqBFgF8PTaseDCyUUSPo_wEeIo57gtu47DX6yoH3pWsYBQDX3yZ55eJ/edit?usp=sharing
