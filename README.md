@@ -5,7 +5,7 @@ Forward e-mails (the first e-mails of a threads) to recipient(s) that satisfies 
 https://script.google.com/d/1gTqBFgF8PTaseDCyUUSPo_wEeIo57gtu47DX6yoH3pWsYBQDX3yZ55eJ/edit?usp=sharing
 
 ## Acknowledgements
-Creation is by Gomesz785 **and** with help by the peope at the end, otherwise noted.
+Creation is by Gomesz785 **and** with help by the peope following, otherwise noted.
 
  * https://stackoverflow.com/questions/62712785/in-gmail-using-google-apps-script-is-it-possible-to-forward-the-translated-ema
   *used as help on structure creating*
