@@ -1,4 +1,4 @@
-//creation is by VScode fanboy **and** with help by the peope at the end, otherwise noted.
+//Creation is by VScode fanboy **and** with help by the peope at the end, otherwise noted.
 
 function autoForward() {
   
