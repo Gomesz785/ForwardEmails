@@ -22,6 +22,9 @@ Declares `nowThread` as the `i`th thread (*first thread at the time when the loo
 ```js
 var nowForward = nowThread.getMessages()[0]
 ```
+Declares `nowForward` as the 0th index of the `.getMessages` method done on `nowThread`.
+
+
 
 ### Shared link
 https://script.google.com/d/1gTqBFgF8PTaseDCyUUSPo_wEeIo57gtu47DX6yoH3pWsYBQDX3yZ55eJ/edit?usp=sharing
