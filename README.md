@@ -30,7 +30,7 @@ nowForward.forward(recipient)
 Forwards the message `nowForward`.
 
 ###  Notes
-This was done as a hybrid way of coding, meaning that for some parts: I used my learned stuff, and the documentation, or the others: Copied directly and modified, then learned about them. Also,  used this to showcase how I will explain things (in the README.md).
+This was done as a hybrid way of coding, meaning that for some parts: I used my learned stuff, and the documentation, and the others: Copied directly and modified, then learned about them. Also,  used this to showcase how I will explain things (in the README.md).
 
 
 ### Shared link
