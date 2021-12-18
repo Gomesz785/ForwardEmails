@@ -1,5 +1,25 @@
 # ForwardEmails
-Forward e-mails (the first e-mails of threads) that satisfies the query added, to recipient(s).
+Forward e-mails (the first e-mails of threads) that satisfies the query added, to recipient
+
+
+We fist need to make a [search query](https://support.google.com/mail/answer/7190) to filter out some [Gmail threads](https://developers.google.com/gmail/api/guides/threads) to forward.
+
+```js
+var threads = GmailApp.search('from:(@somecorporation)'); 
+```
+queries "from:(@somecorporation)"
+
+```js
+  for //loop
+   (var i = 0; //declare i
+   i < threads.length; // till i is less than the count of results of the query
+   i++) { // add 1 to i
+   var nowThread = threads[i] //next thread
+   var nowForward = nowThread.getMessages()[0] //mesage to forward
+   nowForward.forward(recipient);  //forwarding
+  }
+```
+
 
 ### Shared link
 https://script.google.com/d/1gTqBFgF8PTaseDCyUUSPo_wEeIo57gtu47DX6yoH3pWsYBQDX3yZ55eJ/edit?usp=sharing
