@@ -4,7 +4,7 @@ Forward e-mails (the first e-mails of threads) that satisfies the query added, t
 ```js
 var threads = GmailApp.search('from:(@somecorporation)'); // queries "from:(@somecorporation)"
 ```
-Performs a [search query](https://support.google.com/mail/answer/7190) to filter [Gmail threads](https://developers.google.com/gmail/api/guides/threads) that we want; Replace `from:(@somecorporation)` if wanted.
+Performs a [search query](https://support.google.com/mail/answer/7190)([reference](https://developers.google.com/gmail/api/v1/reference/users/threads)) to filter [Gmail threads](https://developers.google.com/gmail/api/guides/threads) that we want; Replace `from:(@somecorporation)` if wanted.
 
 ```js
 for 
